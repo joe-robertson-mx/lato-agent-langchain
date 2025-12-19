@@ -21,12 +21,6 @@ def main():
         help="Run the tutorial agent if available",
     )
     parser.add_argument(
-        "--message",
-        dest="message",
-        default="what's the weather like in London?",
-        help="Message for the tutorial agent",
-    )
-    parser.add_argument(
         "--from-field",
         dest="from_field",
         default="frederich.torresi@optimumsystems.com",
